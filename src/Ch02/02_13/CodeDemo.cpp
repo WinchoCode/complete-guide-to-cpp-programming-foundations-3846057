@@ -6,7 +6,7 @@
 #include <cstdint>
 
 int add_int(float a, double b, long double c){
-    int result = 0;
+    int result = (int)a + (int)b + (int)c;
 
     // Write your code here
     
